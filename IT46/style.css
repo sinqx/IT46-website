@@ -1,0 +1,237 @@
+header
+{
+    width: 1700px;
+    background-color: #299990; 
+    height: 70px;
+}
+
+body
+{
+    margin: 0px auto;
+    padding: 0px;
+    background: #2b2b2b;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    color: white; 
+    background: url(back.jpg) fixed;
+}
+.block-body
+{
+    width: 1700px;  
+    margin: 40px auto;
+    height: auto;
+}
+
+
+
+
+.logo
+{
+    width: 400px;
+    height:80px;
+    float: left;
+}
+
+.logo a
+{
+    display: inline;
+    margin-left: 80px;
+    margin-top: 100px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 55px;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    text-shadow: black 0 0 10px;              
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.menu
+{
+    width: 800px;
+    height: 70px;
+    float: left;
+    
+}
+
+.menu ul li
+{
+    text-align: center;
+    float: left;
+    list-style: none;
+}
+
+.menu ul li a
+{
+    display: inline-block;
+    width: 200px;
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 30pt;
+    color: white;
+    height: 55px;
+    padding-top: 15px;
+    cursor: pointer; 
+    text-shadow: black 0 0 4px;    
+}
+.menu ul li a:hover
+{
+    transition: 0.2s;
+    background-color: #32bfb3;
+}
+
+.auth 
+{
+    float: right;
+    width: 150px;
+}
+.auth img 
+{
+    margin: auto;
+    width: 70px;
+    height: 64px;
+    cursor: pointer; 
+}
+.auth :hover
+{
+    background-color: #32bfb3;
+}
+
+.block
+{
+    margin: 50px auto; 
+    width: 1200px;
+    background-color: #299990; 
+    height: auto;
+}
+
+.content
+{
+    margin: 20px auto; 
+    width: 1200px;
+    background-color: #e3e3e3; 
+    height: 300px;
+    padding: 0px;   
+}
+
+.text
+{
+    text-align: center;
+    margin: 30px auto; 
+    width: 1200px;    
+    height: 300px;
+    padding: 0px; 
+
+}
+
+.text a
+{  
+    padding-top: 20px;
+    cursor: pointer; 
+    font-family: 'Kanit', sans-serif;
+    font-weight:bold;
+    color: black;
+    font-size: 35px;
+    word-break: break-word;
+    text-decoration: none;
+ }
+
+ .text a:hover
+{
+    color: #1e3c59;
+    text-decoration: underline;
+}
+
+ .text p
+ { 
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+    color: black;
+     font-size: 20px;
+ }
+
+.content2
+{
+    padding: 20px; 
+    margin: 20px auto; 
+    width: 1194px;
+    background-color: #ededed; 
+    height: auto;
+    padding: 0px;
+    color: black; 
+    border: 3px solid grey;
+}
+
+.content2 p
+{
+    font-family: 'Kanit', sans-serif;
+    color: black;
+     font-size: 25px;
+    padding: 30px; 
+     height: auto;  
+
+}
+.content2 img
+{
+    display: block;
+    margin: 0 auto;
+    width: 800px;  
+}
+
+.content2 iframe
+{
+     display: block;
+    margin: 0 auto;
+    height: 350px;
+}
+
+
+
+input[type=text], input[type=password] {
+  width: 1100px;
+  padding: 15px;
+  margin: 20px;
+  display: inline-block;
+  text-decoration-color: black;
+}
+label
+{
+    margin:20px; 
+}
+.registerbtn {
+  background-color: green;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+
+}
+    
+.signin 
+{
+  text-align: center;
+  color: black; 
+}
+
+.signin a
+{
+  color: blue;    
+  cursor: pointer;
+  text-decoration: underline;  
+}
+
+.reg
+{
+color: black;
+}
